@@ -9,7 +9,8 @@ cd ZhaoBay
 npm install
 npm run dev
 ```
-
+启动后访问 `http://localhost:3000` 即可查看原型。
+如果你运行了这个可以忽略下面的步骤1 2 3.
 ### 1. 安装依赖
 
 ```bash
