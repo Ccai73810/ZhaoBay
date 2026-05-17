@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #efe9e4;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+.amount {
+  font-family: "DIN Alternate", "SF Pro Display", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+}
+
+.phone-frame {
+  isolation: isolate;
+  width: min(100vw, 390px);
+  max-width: 390px;
+  min-width: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (min-width: 640px) {
+  .phone-frame {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.soft-band {
+  background:
+    radial-gradient(circle at 88% 8%, rgba(255, 231, 210, .72), transparent 30%),
+    radial-gradient(circle at 10% 0%, rgba(255, 244, 235, .7), transparent 26%),
+    #fdf9f7;
+}
+
+.blue-band {
+  background:
+    radial-gradient(circle at 82% 15%, rgba(226, 242, 255, .9), transparent 32%),
+    linear-gradient(180deg, #f3f8ff 0%, #fdf9f7 72%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hide scrollbar for clean prototype look */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
