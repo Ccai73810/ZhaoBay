@@ -2,6 +2,14 @@
 
 ## 快速开始
 
+**一步到位**
+```bash
+git clone https://github.com/Ccai73810/ZhaoBay.git
+cd ZhaoBay
+npm install
+npm run dev
+```
+
 ### 1. 安装依赖
 
 ```bash
